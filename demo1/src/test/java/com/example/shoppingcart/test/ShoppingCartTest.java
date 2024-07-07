@@ -15,7 +15,7 @@ public class ShoppingCartTest {
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
         product1 = new Product("Laptop", 999.99);
-        product2 = new Product("Smartphone", 699.99); //Change Price from 599.99 to 699.99
+        product2 = new Product("Smartphone", 799.99); //Change Price from 599.99 to 799.99
         System.out.println("Executed once before any test methods in this class.");
     }
 
